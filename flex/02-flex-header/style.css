@@ -4,6 +4,7 @@
   /* flexbox */
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 8px;
 }
 
@@ -31,7 +32,7 @@ ul {
   margin: 0;
   /* flexbox */
   display: flex;
-  gap: 20px;
+  gap: 8px;
 }
 
 a {
