@@ -22,12 +22,11 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   /* solution below */
   /* There is padding around the edge of the modal. */
-  box-sizing: border-box;
-  padding: 10px;
+  padding: 16px;
   /* The blue icon is aligned to the left. */
   display: flex;
   /* There is equal space on either side of the icon. */
-  gap: 10px;
+  gap: 16px;
 }
 
 .header {
@@ -45,7 +44,7 @@ body {
   display: flex;
   flex-direction: column;
   /* There is equal space on either side of the icon */
-  gap: 10px;
+  gap: 16px;
 }
 
 .title {
