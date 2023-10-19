@@ -46,8 +46,8 @@ input {
   flex-direction: column;
   align-items: center;
   gap: 16px;
-  justify-content: center;
-  flex-grow: 1;
+  justify-content: center; /* because I changed de flex-direction; justify-content: center aligns the elements vertically */
+  flex-grow: 1; /* so .content is the only one who grows while .header and .footer keep their height */
 }
 
 .footer {
