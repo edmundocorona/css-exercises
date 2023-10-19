@@ -4,6 +4,7 @@
   /* flexbox */
   display: flex;
   align-items: center;
+  padding: 8px;
 }
 
 .logo {
@@ -12,7 +13,6 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
-  margin: 10px;
 }
 
 .right-links {
@@ -28,7 +28,7 @@ ul {
   list-style-type: none;
   /* deal with default margin/padding */
   padding: 0;
-  margin: 10px;
+  margin: 0;
   /* flexbox */
   display: flex;
   gap: 20px;
