@@ -20,6 +20,38 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  /* solution below */
+  /* There is padding around the edge of the modal. */
+  box-sizing: border-box;
+  padding: 10px;
+  /* The blue icon is aligned to the left. */
+  display: flex;
+  /* There is equal space on either side of the icon. */
+  gap: 10px;
+}
+
+.header {
+  /* solution below */
+  /* The header is bold and a slightly larger text-size than the text. */
+  font-size: 20px;
+  font-weight: bold;
+  /* The close button is aligned in the top-right of the card. */
+  margin-right: auto;
+}
+
+.message {
+  /* solution below */
+  /* The header, text, and buttons are aligned with each other. */
+  display: flex;
+  flex-direction: column;
+  /* There is equal space on either side of the icon */
+  gap: 10px;
+}
+
+.title {
+  /* solution below */
+  /* The close button is vertically aligned with the header */
+  display: flex;
 }
 
 .icon {
@@ -33,6 +65,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* solution below */
+  flex-shrink: 0;
 }
 
 .close-button {
