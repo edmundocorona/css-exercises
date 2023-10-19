@@ -8,7 +8,8 @@ body {
   /* solution below */
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* the line below isn't needed with flex-growth: 1 and justify-content: center on .content */
+  /* justify-content: space-between; */
 }
 
 img {
@@ -44,6 +45,9 @@ input {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 16px;
+  justify-content: center;
+  flex-grow: 1;
 }
 
 .footer {
